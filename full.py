@@ -7,7 +7,7 @@ import docx
 import os
 
 # Configure Google Gemini API
-genai.configure(api_key="AIzaSyBG-4wDu6xj90eMsoGHlrRp_yIG2xN5Rek")
+genai.configure(api_key="__")
 model = genai.GenerativeModel("gemini-1.5-pro-latest")
 
 # Speech-to-Text Function
