@@ -4,7 +4,7 @@ import gradio as gr
 import PIL.Image
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyBG-4wDu6xj90eMsoGHlrRp_yIG2xN5Rek")  # Replace with your actual API key
+genai.configure(api_key="__")  # Replace with your actual API key
 model = genai.GenerativeModel("gemini-1.5-pro-latest")  # Vision model for images/docs
 
 # Function to process input
